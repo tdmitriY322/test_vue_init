@@ -46,7 +46,6 @@ export default {
       } else {
         this.sliderIndex += 1;
       }
-
       console.log(this.sliderIndex);
     },
   },
