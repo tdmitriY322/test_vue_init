@@ -6,7 +6,7 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'Home',
+    name: 'Slider',
     meta: {
       layout: 'main'
     },
@@ -22,7 +22,7 @@ const routes = [
   },
   {
     path: '/chat',
-    name: 'Home',
+    name: 'Chat',
     meta: {
       layout: 'main'
     },
