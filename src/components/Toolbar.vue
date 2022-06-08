@@ -4,7 +4,7 @@
       <v-toolbar-title>Initkz</v-toolbar-title>
       <v-spacer></v-spacer>
       <div>
-        <v-row d-flex align="center" justify="space-around">
+        <v-row d-flex  justify="space-around">
           <v-btn text to='/'> Слайдер </v-btn>
           <v-btn text to='/currency'> Курс валют </v-btn>
           <v-btn text to='/chat'> Чат </v-btn>
@@ -19,7 +19,6 @@
 <script>
 export default {
   data: () => ({
-    isDisabled: null
   }),
   methods: {
   },
